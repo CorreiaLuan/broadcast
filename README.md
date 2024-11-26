@@ -27,8 +27,6 @@ or
 pip install git+https://github.com/CorreiaLuan/broadcast.git
 ```
 
-
-```markdown
 ## Usage
 
 ### Example 1: Fetch Data Using the BC Formula
