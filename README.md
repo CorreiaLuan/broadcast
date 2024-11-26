@@ -34,7 +34,7 @@ pip install git+https://github.com/CorreiaLuan/broadcast.git
 from broadcast import xlAddin
 
 broad = xlAddin()
-data = broad.bc(ativo="Ibov", campos="ult") #Here you can also use campos = "ult;drf" ad in Excel Addin
+data = broad.bc(ativo="Ibov", campos="ult") #Here you can also use campos = "ult;drf" as in Excel Addin
 print(data)
 ```
 
@@ -45,7 +45,7 @@ from broadcast import xlAddin
 broad = xlAddin()
 historical_data = broad.bch(
     ativo="Ibov",
-    campos=["ult", "drf"], #Here you can also use campos = "ult;drf" ad in Excel Addin
+    campos=["ult", "drf"], #Here you can also use campos = "ult;drf" as in Excel Addin
     data_inicial="2024-01-01",
     data_final="2024-11-26"
 )
